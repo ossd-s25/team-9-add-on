@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Tomato Clock",
+    "version": "1.4",
+    "description": "A Pomodoro timer extension for Firefox with a toggleable session duration (25 or 5 minutes) using a Skip button.",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icon.png"
+      }
+    },
+    "permissions": []
+  }

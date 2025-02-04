@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tomato Clock</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 250px;
+        margin: 10px;
+        text-align: center;
+      }
+      h1 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+      }
+      #session-info {
+        font-size: 0.9em;
+        margin-bottom: 10px;
+        color: #555;
+      }
+      #timer {
+        font-size: 2em;
+        margin: 10px 0;
+      }
+      button {
+        width: 90%;
+        padding: 8px;
+        font-size: 1em;
+        margin: 5px auto;
+        display: block;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tomato Clock</h1>
+    <div id="session-info">Session Duration: 25:00</div>
+    <div id="timer">25:00</div>
+    <button id="startStopBtn">Start</button>
+    <button id="resetBtn">Reset</button>
+    <button id="skipBtn">Skip</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
