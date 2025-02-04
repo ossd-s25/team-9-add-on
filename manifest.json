@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "Rock Paper Scissors",
+    "name": "Pomodoro",
     "version": "1.0",
   
-    "description": "Browser extension to play a simple game of rock, paper, and scissors.",
+    "description": "Pomodoro Timer",
     "homepage_url": "https://github.com/ossd-s25/team-9-add-on",
     "icons": {
       "48": "icons/placeholder.png"
