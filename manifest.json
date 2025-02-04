@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Rock Paper Scissors",
+    "version": "1.0",
+  
+    "description": "Browser extension to play a simple game of rock, paper, and scissors.",
+    "homepage_url": "https://github.com/ossd-s25/team-9-add-on",
+    "icons": {
+      "48": "icons/placeholder.png"
+    },
+  
+    "permissions": ["activeTab"],
+  
+    "browser_action": {
+
+    },
+  
+    "web_accessible_resources": [
+
+    ]
+  }
+  
