@@ -1,22 +1,17 @@
 {
     "manifest_version": 2,
-    "name": "Pomodoro",
-    "version": "1.0",
-  
-    "description": "Pomodoro Timer",
-    "homepage_url": "https://github.com/ossd-s25/team-9-add-on",
-    "icons": {
-      "48": "icons/placeholder.png"
+    "name": "Tomato Clock",
+    "version": "1.4",
+    "description": "A Pomodoro timer extension for Firefox with a toggleable session.",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
     },
-  
-    "permissions": ["activeTab"],
-  
-    "browser_action": { 
-
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icons/icon.png"
+      }
     },
-  
-    "web_accessible_resources": [
-
-    ]
+    "permissions": []
   }
-  
