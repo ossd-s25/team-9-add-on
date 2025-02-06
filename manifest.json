@@ -1,8 +1,8 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 1,
     "name": "Tomato Clock",
-    "version": "1.4",
-    "description": "A Pomodoro timer extension for Firefox with a toggleable session.",
+    "version": "1.0",
+    "description": "A Pomodoro timer extension for Firefox with two different sessions.",
     "background": {
       "scripts": ["background.js"],
       "persistent": true
